@@ -65,7 +65,7 @@ do {
 
 	$number_guess = fgets(STDIN);
 
-} while ($random_number != $number_guess);
+} while ($random != $number_guess);
 
 echo "Congrats" . PHP_EOL;
 
